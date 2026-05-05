@@ -1,0 +1,52 @@
+{
+  "colors": {
+    "primary": "#15803d",
+    "secondary": "#16a34a",
+    "accent": "#0369a1",
+    "background": "#f9fdf9",
+    "surface": "#ecf5ec",
+    "text": "#0f2518",
+    "muted": "#5a7a66"
+  },
+  "typography": {
+    "headingFont": "Outfit",
+    "bodyFont": "Source Sans 3",
+    "monoFont": "JetBrains Mono",
+    "scale": "default"
+  },
+  "spacing": "default",
+  "borderRadius": "lg",
+  "shadows": "subtle",
+  "mood": "Fresh alpine morning — crisp mountain green, clean air, bright open spaces",
+  "motionStyle": "moderate",
+  "layoutStyle": "trail-signage",
+  "designRules": [
+    "LAYOUT: Clean modern trail-marker style — green dot indicators before list items. Cards with green left-accent borders. Open airy spacing. Rounded xl corners on cards. Features as clean icon + text rows.",
+    "Fresh green tones evoke mountain meadows and clean natural environments",
+    "Light, airy backgrounds with minimal visual weight create openness",
+    "Blue accent for links and secondary CTAs — mountain lake reference",
+    "Modern geometric sans-serif headings feel contemporary and approachable",
+    "Rounded corners and soft shadows create a friendly, welcoming atmosphere",
+    "Unit pricing cards have green left-accent borders like trail markers — clear, directional, trustworthy",
+    "Facility pages feel like mountain lodge signage — clean typography, fresh green accents, open spacing",
+    "CONVERSION: Facility pages use Layout Option C (hero units) — top 3-4 sizes as rounded cards with green accent dots above fold, then full table. Search in hero with green focus. On market pages, rounded facility cards with pricing and green Reserve buttons.",
+    "CONVERSION: Reserve/CTA buttons must be the single most visually prominent element on every page — larger than navigation links, higher contrast than body text, with hover state that increases visual weight. Use the primary color at full saturation. Every unit card and table row MUST have a Reserve button.",
+    "CONVERSION: Use badges to show real-time social proof and urgency — 'Most Popular' on the best-selling size, 'X Left!' in a warning color when availability is low, 'Available' in a success color for in-stock units. Price must be the largest text element in every unit card, displayed in the primary or accent color."
+  ],
+  "designPatterns": {
+    "card": "<div className=\"bg-white rounded-2xl p-6 border border-primary/10 shadow-sm hover:shadow-md hover:border-primary/20 transition-all\">",
+    "button": "<a className=\"bg-primary text-white font-semibold px-7 py-3 rounded-xl shadow-md shadow-primary/20 hover:shadow-lg hover:shadow-primary/30 hover:-translate-y-0.5 transition-all\">",
+    "buttonSecondary": "<a className=\"border border-primary/20 text-primary font-medium px-7 py-3 rounded-xl hover:bg-primary/5 transition-all\">",
+    "heading": "<h2 className=\"font-heading text-4xl md:text-5xl font-bold text-text tracking-tight\">",
+    "subheading": "<p className=\"text-lg text-text-muted leading-relaxed max-w-2xl\">",
+    "badge": "<span className=\"inline-flex items-center gap-1.5 bg-primary/10 text-primary font-semibold rounded-full px-4 py-1.5 text-sm\">",
+    "input": "<input className=\"w-full bg-white border border-primary/15 rounded-xl px-5 py-3 text-text placeholder:text-text-muted focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary/30 transition\" />",
+    "sectionBg": "bg-background",
+    "sectionAltBg": "bg-surface",
+    "sectionDarkBg": "bg-primary text-white",
+    "navStyle": "bg-white/80 backdrop-blur-md border-b border-primary/10",
+    "footerStyle": "bg-surface border-t border-primary/10",
+    "iconBox": "<div className=\"h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary\">",
+    "divider": "<div className=\"h-px bg-primary/10\">"
+  }
+}
